@@ -3,7 +3,6 @@ Solutions to problem sets to EE453 Optimization Theory course offered on 2019 Sp
 
 **Note**: Problem Set 1 is not uploaded to Github as it involves paper calculations.
 
-- [Analysis of Problem Set 2](./HW%202/README.md)
-- [Analysis of Problem Set 3](./HW%203/README.md)
-- [Analysis of Problem Set 4](./HW%204/README.md)
+You can navigate to the `HW*` subdirectories to find the problem set pdfs. Each subdirectory has a `README.md` which involves the solution analysis.
+
 
