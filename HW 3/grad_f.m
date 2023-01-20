@@ -1,12 +1,12 @@
-function grad_vec = grad_f(x)
-%F rosenbrock function 
+function y = grad_f(x)
     
-    syms x1 x2 x3
+    m = length(x);
+    y = zeros(1,m);
     
-    sym_grad_vec = gradient(f([x1 x2 x3]));
-
-    grad_vec = double(subs(sym_grad_vec, [x1, x2, x3], [x(1), x(2), x(3)]));
     
+    y(1) = 200*(x(2)-x(1)^2) * (-2*x(1)) + 2*(x(1)-1);
+    y(2) = 200*(x(2)-x(1)^2) + 200*(x(3)-x(2)^2)*(-2*x(2))+2*(x(2));
+    y(3) = 200*(x(3)-x(2)^2);
 
 end
 
